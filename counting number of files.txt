@@ -1,0 +1,10 @@
+#!/bin/bash
+
+count=0
+for i in ./sample/*.js
+do
+        echo $i
+        ((count++))
+
+done
+  echo"the total number of files :$count"

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+for i in ./sample/*.js
+do
+        echo $i
+        cp $i ./demo
+
+done

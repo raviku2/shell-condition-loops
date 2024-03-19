@@ -1,0 +1,7 @@
+#!/bin/bash
+
+init=4
+while true
+do
+        echo $init
+done

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in  ./sample/*.js
+do
+        echo $i
+done
