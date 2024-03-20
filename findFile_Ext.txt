@@ -1,0 +1,14 @@
+#!/bin/bash
+
+read dir
+read ext
+count=0
+for i in $dir/*.$ext
+do
+        echo $i
+        if [ -f $i ]
+        then
+                ((count++))
+        fi
+done
+echo $count
